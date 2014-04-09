@@ -154,7 +154,7 @@ nav a:hover {
     font-size: 44px;
 	line-height: 100%;
 	font-family: "courier new";
-	margin: 10px 10px 10px 10px;
+	margin: 10px 10px 10px -5%;
 
 }
 
@@ -311,7 +311,7 @@ nav a:hover {
 }
 
 .project-item {
-    padding: 10px 10px;
+    padding: 5px 5px;
     margin:  10px 0;
     background-color: #EFEFEF;
     border: 2px solid #DDDDDD;
@@ -336,6 +336,8 @@ nav a:hover {
 
 .person-left-side p {
     padding-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .person-right-side {

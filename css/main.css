@@ -238,8 +238,8 @@ nav a:hover {
 
 .pixelpeter {
     position: absolute;
-    top:    25%;
-    right: -40px;
+    top:    160%;
+    right: 30%;
 }
 
 .wordbubble {
@@ -336,6 +336,7 @@ nav a:hover {
 
 .person-left-side p {
     padding-right: 10px;
+    padding-left: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -346,6 +347,35 @@ nav a:hover {
 }
 
 .person-right-side img {
+    width: 100%;
+    height: auto;
+}
+
+.dibigong-item {
+    padding: 10px 10px;
+    margin:  10px 0;
+    background-color: #EFEFEF;
+    border: 2px solid #DDDDDD;
+}
+
+.dibigong-left-side {
+    float:left;
+    width: 50%;
+}
+
+.dibigong-right-side p {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.dibigong-right-side {
+    float:left;
+    width: 50%;
+}
+
+.dibigong-left-side img {
     width: 100%;
     height: auto;
 }

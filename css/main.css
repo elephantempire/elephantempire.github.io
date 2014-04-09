@@ -274,22 +274,22 @@ nav a:hover {
     text-decoration:none;
 }
 
-.image-left {
+.center-please {
+    text-align: center;
+}
+
+.image-ee-gif {
     width: 50%;
-    float:left;
+    display: inline-block;
+    padding-right: 5px;
 }
 
-.image-right {
+.image-ee-promo {
     width: 42%;
-    float:left;
+    display: inline-block;
 }
 
-.ee-gif {
-    width: 100%;
-    height: auto;
-}
-
-.ee-promoshot {
+.responsive-image {
     width: 100%;
     height: auto;
 }

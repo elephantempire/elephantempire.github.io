@@ -238,8 +238,9 @@ nav a:hover {
 
 .pixelpeter {
     position: absolute;
-    top:    160%;
-    right: 30%;
+    bottom: 10px;
+    right: 30px;
+   
 }
 
 .wordbubble {
@@ -352,6 +353,7 @@ nav a:hover {
 }
 
 .dibigong-item {
+    position:relative;
     padding: 10px 10px;
     margin:  10px 0;
     background-color: #EFEFEF;

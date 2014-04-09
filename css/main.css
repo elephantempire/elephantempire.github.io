@@ -1,0 +1,634 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+@font-face {
+	font-family: animeace2_reg;
+	src: url('/css/font/anime-ace/animeace2_reg.ttf');
+}
+@font-face {
+	font-family: animeace2_ital;
+	src: url('/css/font/anime-ace/animeace2_ital.ttf');
+}
+@font-face {
+	font-family: animeace2_bld;
+	src: url('/css/font/anime-ace/animeace2_bld.ttf');
+}
+
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   By: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 20px/26px Calibri, Arial, CourierNew;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    border-bottom: 20px solid #e44d26;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #1c4870; /*#0079ff;*/
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #004F95; /*#ff7900;*/
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 44px;
+	line-height: 100%;
+	font-family: "courier new";
+	margin: 10px 10px 10px 10px;
+	
+}
+
+.main article h1 a {
+	color: black;
+	text-decoration:none; 
+}
+
+.main article h1 a:hover,.main article h1 a:visited {
+	text-decoration: underline; 
+}
+
+.main article h2 {
+    font-size: 22px;
+	font-family: "courier new";
+}
+
+.main article h3 {
+    font-size: 66px;
+	line-height: 50px;
+	font-family: "courier new";
+	margin: 20px 20px 40px 20px;
+	
+}
+ /*home page labels*/ 
+.main article h4 {
+    font-size: 32px;
+	line-height: 40px;
+	margin: 0px;
+	font-family: "courier new";
+
+	
+}
+ /*home page project titles*/ 
+.main article h5 {
+ 	font-size: 24px;
+	font-family: "courier new";
+	margin: 0px 0px 0px 0px;
+	
+}
+ 
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles zzz
+   ========================================================================== */
+
+.punchleft {
+    border: 3px solid black;
+    float: left;
+    margin: 3px 10px 3px -150px;
+}
+
+.punchright {
+    border: 3px solid black;
+    float: right;
+    margin: 3px -60px 3px 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.pixelpeter {
+    float: right;
+    position: absolute;
+    margin: -650px 0px 0px 550px;
+}
+
+.wordbubble {
+    position:absolute;
+    margin: -260px -10px 10px -190px;
+    
+        
+}
+
+.wordbubbletext {
+    
+    font-family: calibri;
+    font-size: 20px;
+    color: white;
+    
+    line-height:110%;
+    margin: -140px 0px 0px 25px;
+    width:160px;
+    
+}
+
+.wordbubbletext a:link{
+    color: gold;
+    text-decoration:none;
+}
+
+.wordbubbletext a:visited{
+    color: gold;
+    text-decoration:none;
+}
+
+.wordbubbletext a:hover{
+    color: gold;
+    text-decoration:none;
+}
+
+#fadeout {
+    transition: opacity 1s;
+}
+
+#fadeout:hover {
+    opacity: 0;
+}
+
+
+
+.project-img {
+	padding: 0px 10px;
+	float: left;
+	
+}
+
+dl {
+    margin: 0px;
+}
+
+dd {
+    margin: 15px 0 5px 0;
+}
+
+dt {
+    font-weight:none;
+}
+    
+.project-item {
+    padding: 10px 10px;
+    margin:  10px 0;
+    background-color: #EFEFEF;
+    border: 2px solid #DDDDDD;
+}
+
+.project-title{
+        margin: 0px 0px 0px -75px;
+        padding: 5px;
+}
+
+/*===============
+Responsive YouTube Embed
+=========================*/
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+- See more at: http://avexdesigns.com/responsive-youtube-embed/#sthash.Dlj7zQbC.dpuf
+
+/*zzz footer fixes */
+.footer-content {
+    width: 58%;
+    margin: 20px auto;
+	font-family: animeace2_reg;
+}
+
+.footer-link:visited {
+    color:inherit;
+}
+
+    
+/*zzz petes tweeter */
+#tweeter-box {
+    background-color: #00ACED;
+    border: 2px solid #009ACB;
+    padding: 20px;
+    margin: 30px 0;
+    position: relative;
+}
+
+#tweeter-content {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 0px 0px;
+    margin:  0;
+    margin-right: 50px;
+}
+
+#tweeter {
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+#tweeter-logo {
+    position: absolute;
+	top:50px;
+	right:10px;
+	
+}
+
+/*zzz jquery.tweet.js stuff */
+.tweet, .query {
+    font: 120% Georgia, serif;
+    color: #085258;
+}
+
+.tweet_list {
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 0.5em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tweet_list li {
+    list-style-type: none;
+    margin-left: 79px;
+}
+
+.tweet_list .tweet_even {
+    background-color: #529ed7;
+}
+
+.tweet_list .tweet_avatar {
+    padding-right: .5em; 
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.tweet_list .tweet_avatar img {
+    vertical-align: middle;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        margin: auto;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

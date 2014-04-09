@@ -155,16 +155,16 @@ nav a:hover {
 	line-height: 100%;
 	font-family: "courier new";
 	margin: 10px 10px 10px 10px;
-	
+
 }
 
 .main article h1 a {
 	color: black;
-	text-decoration:none; 
+	text-decoration:none;
 }
 
 .main article h1 a:hover,.main article h1 a:visited {
-	text-decoration: underline; 
+	text-decoration: underline;
 }
 
 .main article h2 {
@@ -177,25 +177,25 @@ nav a:hover {
 	line-height: 50px;
 	font-family: "courier new";
 	margin: 20px 20px 40px 20px;
-	
+
 }
- /*home page labels*/ 
+ /*home page labels*/
 .main article h4 {
     font-size: 32px;
 	line-height: 40px;
 	margin: 0px;
 	font-family: "courier new";
 
-	
+
 }
- /*home page project titles*/ 
+ /*home page project titles*/
 .main article h5 {
  	font-size: 24px;
 	font-family: "courier new";
 	margin: 0px 0px 0px 0px;
-	
+
 }
- 
+
 .main aside {
     color: white;
     padding: 0px 5% 10px;
@@ -245,20 +245,18 @@ nav a:hover {
 .wordbubble {
     position:absolute;
     margin: -260px -10px 10px -190px;
-    
-        
 }
 
 .wordbubbletext {
-    
+
     font-family: calibri;
     font-size: 20px;
     color: white;
-    
+
     line-height:110%;
     margin: -140px 0px 0px 25px;
     width:160px;
-    
+
 }
 
 .wordbubbletext a:link{
@@ -276,6 +274,26 @@ nav a:hover {
     text-decoration:none;
 }
 
+.image-left {
+    width: 50%;
+    float:left;
+}
+
+.image-right {
+    width: 42%;
+    float:left;
+}
+
+.ee-gif {
+    width: 100%;
+    height: auto;
+}
+
+.ee-promoshot {
+    width: 100%;
+    height: auto;
+}
+
 #fadeout {
     transition: opacity 1s;
 }
@@ -289,9 +307,9 @@ nav a:hover {
 .project-img {
 	padding: 0px 10px;
 	float: left;
-	
+
 }
-    
+
 .project-item {
     padding: 10px 10px;
     margin:  10px 0;
@@ -304,6 +322,32 @@ nav a:hover {
         padding: 5px;
 }
 
+.person-item {
+    padding: 10px 10px;
+    margin:  10px 0;
+    background-color: #EFEFEF;
+    border: 2px solid #DDDDDD;
+}
+
+.person-left-side {
+    float:left;
+    width: 60%;
+}
+
+.person-left-side p {
+    padding-right: 10px;
+}
+
+.person-right-side {
+    float:left;
+    width: 40%;
+}
+
+.person-right-side img {
+    width: 100%;
+    height: auto;
+}
+
 /*===============
 Responsive YouTube Embed
 =========================*/
@@ -313,7 +357,7 @@ Responsive YouTube Embed
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
- 
+
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -336,7 +380,7 @@ Responsive YouTube Embed
     color:inherit;
 }
 
-    
+
 /*zzz petes tweeter */
 #tweeter-box {
     background-color: #00ACED;
@@ -366,7 +410,7 @@ Responsive YouTube Embed
     position: absolute;
 	top:50px;
 	right:10px;
-	
+
 }
 
 /*zzz jquery.tweet.js stuff */
@@ -394,7 +438,7 @@ Responsive YouTube Embed
 }
 
 .tweet_list .tweet_avatar {
-    padding-right: .5em; 
+    padding-right: .5em;
     position: absolute;
     left: 10px;
     top: 10px;

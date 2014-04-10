@@ -232,17 +232,25 @@ nav a:hover {
     z-index: 2;
 }
 
+.pixelpeter-container {
+    position      : relative;
+    padding-top   : 60px;
+    padding-bottom: 60px;
+}
 .pixelpeter {
-    position: absolute;
-    bottom: -30px;
-    right: 60px;
-    z-index:1;
-   
+    position: relative;
+    display : block;
+    left:    40px;
+    width   : 100px;
+    margin  : 0 auto;
+
+    z-index : 1;
 }
 
 .wordbubble {
-    position:absolute;
-    margin: -260px -10px 10px -190px;
+    position: absolute;
+    top: -40px;
+    left: -220px;
 }
 
 .wordbubbletext {
@@ -354,9 +362,7 @@ nav a:hover {
     position: absolute;
     top: 15px;
     right: -25px;
-    z-index:1;  
-}   
-    
+    z-index:1;
 }
 
 .dibigong-item {
@@ -368,26 +374,29 @@ nav a:hover {
 }
 
 .dibigong-left-side {
-    float:left;
+    float: left;
     width: 50%;
-}
-
-.dibigong-right-side p {
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-top: 0px;
-    margin-bottom: 0px;
 }
 
 .dibigong-right-side {
-    float:left;
+    float: left;
     width: 50%;
 }
 
-.dibigong-right-side img{
+.dibigong-right-side-container {
+    padding-right: 10px;
+    padding-left : 10px;
+}
+
+.dibigong-right-side p {
+    margin-top   : 0;
+    margin-bottom: 0;
+}
+
+.dibigong-right-side img {
     width: 100%;
     height: auto;
-    margin:10px;
+    margin-bottom: 10px;
 }
 
 img.transparent{

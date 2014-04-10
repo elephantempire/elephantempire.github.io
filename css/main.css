@@ -336,6 +336,22 @@ nav a:hover {
     position:relative;
 }
 
+.person-item-cast {
+    padding: 10px 10px;
+    margin:  10px 0;
+    background-color: #FF9900;
+    border: 2px solid #DDDDDD;
+    position:relative;
+}
+
+.person-item-crew {
+    padding: 10px 10px;
+    margin:  10px 0;
+    background-color: #CCFFFF;
+    border: 2px solid #DDDDDD;
+    position:relative;
+}
+
 .person-left-side {
     float:left;
     width: 60%;

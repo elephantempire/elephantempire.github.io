@@ -232,10 +232,6 @@ nav a:hover {
     z-index: 2;
 }
 
-.dibigong {
-    position: relative;
-}
-
 .pixelpeter {
     position: absolute;
     bottom: -30px;
@@ -356,7 +352,7 @@ nav a:hover {
 
 .twitter-pixel-logo{
     position: absolute;
-    bottom: 15px;
+    top: 15px;
     right: -25px;
     z-index:1;  
 }   
@@ -364,7 +360,7 @@ nav a:hover {
 }
 
 .dibigong-item {
-    position:relative;
+    position: relative;
     padding: 10px 10px;
     margin:  10px 0;
     background-color: #EFEFEF;

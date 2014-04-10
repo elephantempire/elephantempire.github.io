@@ -329,6 +329,7 @@ nav a:hover {
     margin:  10px 0;
     background-color: #EFEFEF;
     border: 2px solid #DDDDDD;
+    position:relative;
 }
 
 .person-left-side {
@@ -351,6 +352,15 @@ nav a:hover {
 .person-right-side img {
     width: 100%;
     height: auto;
+}
+
+.twitter-pixel-logo{
+    position: absolute;
+    bottom: 15px;
+    right: -25px;
+    z-index:1;  
+}   
+    
 }
 
 .dibigong-item {

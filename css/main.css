@@ -11,16 +11,16 @@ textarea {
 }
 
 @font-face {
-	font-family: animeace2_reg;
-	src: url('/css/font/anime-ace/animeace2_reg.ttf');
+    font-family: 'animeace2_reg';
+    src: url('/css/font/anime-ace/animeace2_reg.ttf');
 }
 @font-face {
-	font-family: animeace2_ital;
-	src: url('/css/font/anime-ace/animeace2_ital.ttf');
+    font-family: 'animeace2_ital';
+    src: url('/css/font/anime-ace/animeace2_ital.ttf');
 }
 @font-face {
-	font-family: animeace2_bld;
-	src: url('/css/font/anime-ace/animeace2_bld.ttf');
+    font-family: 'animeace2_bld';
+    src: url('/css/font/anime-ace/animeace2_bld.ttf');
 }
 
 
@@ -152,47 +152,52 @@ nav a:hover {
 
 .main article h1 {
     font-size: 50px;
-	line-height: 100%;
-	font-family: "courier new";
-	margin: 10px 10px 10px -5%;
+    line-height: 100%;
+    font-family: "courier new";
+    margin: 10px 10px 10px -5%;
+}
 
+@media screen and (max-width: 570px) {
+    .main article h1 {
+        font-size: 34px;
+    }
 }
 
 .main article h1 a {
-	color: black;
-	text-decoration:none;
+    color: black;
+    text-decoration:none;
 }
 
 .main article h1 a:hover,.main article h1 a:visited {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .main article h2 {
     font-size: 22px;
-	font-family: "courier new";
+    font-family: "courier new";
 }
 
 .main article h3 {
     font-size: 66px;
-	line-height: 50px;
-	font-family: "courier new";
-	margin: 20px 20px 40px 20px;
+    line-height: 50px;
+    font-family: "courier new";
+    margin: 20px 20px 40px 20px;
 
 }
  /*home page labels*/
 .main article h4 {
     font-size: 32px;
-	line-height: 40px;
-	margin: 0px;
-	font-family: "courier new";
+    line-height: 40px;
+    margin: 0px;
+    font-family: "courier new";
 
 
 }
  /*home page project titles*/
 .main article h5 {
- 	font-size: 24px;
-	font-family: "courier new";
-	margin: 0px 0px 0px 0px;
+    font-size: 24px;
+    font-family: "courier new";
+    margin: 0px 0px 0px 0px;
 
 }
 
@@ -232,24 +237,46 @@ nav a:hover {
     z-index: 2;
 }
 
-.pixelpeter-container {
-    position      : relative;
-    padding-top   : 60px;
-    padding-bottom: 60px;
+.plain-item {
+    position: relative;
 }
+
+.plain-leftside {
+    float: left;
+    width: 50%;
+}
+
+.plain-rightside {
+    float: left;
+    width: 50%;
+}
+
+@media screen and (max-width: 570px) {
+    .plain-leftside {
+        float: none;
+        width: 100%;
+        display: block;
+    }
+
+    .plain-rightside {
+        float: none;
+        width: 100%;
+        display: block;
+        height: 170px;
+    }
+}
+
 .pixelpeter {
     position: absolute;
-    left: 480px;
-    top: 65px;
-    
-
+    right   : 0px;
+    bottom  : -80px;
     z-index : 1;
 }
 
 .wordbubble {
     position: absolute;
-    bottom: 150px;
-    left: -200px;
+    bottom  : 150px;
+    left    : -200px;
 }
 
 .wordbubbletext {
@@ -310,8 +337,8 @@ nav a:hover {
 
 
 .project-img {
-	padding: 0px 10px;
-	float: left;
+    padding: 0px 10px;
+    float: left;
 
 }
 
@@ -329,11 +356,17 @@ nav a:hover {
 }
 
 .person-item {
-    padding: 10px 10px;
+    padding: 10px 10px 10px 10px;
     margin:  10px 0;
     background-color: #EFEFEF;
     border: 2px solid #DDDDDD;
     position:relative;
+}
+
+
+
+.person-name-font {
+    font-family: 'Courier New', 'Courier', 'Arial';
 }
 
 
@@ -367,8 +400,18 @@ nav a:hover {
 
 .pixel-portrait img {
     position:absolute;
-    left:-57px;
+    left:-60px;
     bottom: 15%;
+}
+
+@media screen and (max-width: 570px) {
+    .person-item {
+        padding: 10px 10px 10px 65px;
+    }
+
+    .pixel-portrait img {
+        left:-10px;
+    }
 }
 
 .person-right-side {
@@ -453,7 +496,7 @@ Responsive YouTube Embed
 .footer-content {
     width: 58%;
     margin: 20px auto;
-	font-family: animeace2_reg;
+    font-family: 'animeace2_reg';
 }
 
 .footer-link:visited {
@@ -488,8 +531,8 @@ Responsive YouTube Embed
 
 #tweeter-logo {
     position: absolute;
-	top:50px;
-	right:10px;
+    top:50px;
+    right:10px;
 
 }
 
@@ -734,10 +777,6 @@ Responsive YouTube Embed
 
     img {
         max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
     }
 
     p,

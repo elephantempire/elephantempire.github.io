@@ -98,13 +98,13 @@ body {
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #1c4870; /*#0079ff;*/
+    border-top: 20px solid #0084ff; /*#0079ff;*/
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #004F95; /*#ff7900;*/
+    background: #ff8000; /*#ff7900;*/
 }
 
 .title {
@@ -239,8 +239,8 @@ nav a:hover {
 }
 .pixelpeter {
     position: absolute;
-    right: -200px;
-    top: 60px;
+    left: 475px;
+    top: 130px;
     
 
     z-index : 1;
@@ -599,7 +599,7 @@ Responsive YouTube Embed
 
     .main article {
         margin: auto;
-        width: 80%;
+        width: 75%;
     }
 }
 

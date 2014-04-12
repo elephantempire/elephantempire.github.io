@@ -345,7 +345,12 @@ nav a:hover {
     position:relative;
 }
 
-
+.word-bubble-item {
+    padding: 5px 5px;
+    margin:  10px 0;
+    position: relative;
+  
+}
 
 .person-name-font {
     font-family: 'Courier New', 'Courier', 'Arial';

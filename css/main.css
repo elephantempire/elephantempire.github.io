@@ -427,17 +427,20 @@ nav a:hover {
     height: auto;
 }
 
-.map {
-    float: left;
-    width: 50%;
-    text-align: center;
+pixel-right-wordbubble{
+  position: absolute;
+  bottom: 0px;
+  left: 300px;
+  
 }
 
-.facebook-event {
-    float: left;
-    width: 50%;
-    text-align: center;
+pixel-left-wordbubble{
+  position: absolute;
+  bottom: 0px;
+  left: -120px;
+  
 }
+
 
 img.transparent{
     opacity:0.7;

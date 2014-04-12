@@ -237,40 +237,21 @@ nav a:hover {
     z-index: 2;
 }
 
-.plain-item {
+.plain-item  p {
+    font-size: 18px;
+    line-height: 1.1;
+    /*position: relative;*/
+}
+
+.pixelpeter-title {
     position: relative;
-}
-
-.plain-leftside {
-    float: left;
-    width: 50%;
-}
-
-.plain-rightside {
-    float: left;
-    width: 50%;
-}
-
-@media screen and (max-width: 570px) {
-    .plain-leftside {
-        float: none;
-        width: 100%;
-        display: block;
-    }
-
-    .plain-rightside {
-        float: none;
-        width: 100%;
-        display: block;
-        height: 170px;
-    }
 }
 
 .pixelpeter {
     position: absolute;
-    right   : 0px;
-    bottom  : -80px;
-    z-index : 1;
+    right   : 30px;
+    top     : 65px;
+    z-index : 9999;
 }
 
 .wordbubble {
@@ -434,23 +415,25 @@ nav a:hover {
 .dibigong-item {
     position: relative;
     padding: 10px 10px;
-    margin:  0px;
+    margin:  0 auto;
+    width: 80%;
     background-color: #EFEFEF;
     border: 2px solid #DDDDDD;
+    text-align: center;
 }
 
 .
 
 .map {
-    position:absolute;
-    top:66%;
-    left: 68%;
+    float: left;
+    width: 50%;
+    text-align: center;
 }
 
 .facebook-event {
-    position:absolute;
-    top:33%;
-    left: 68%;
+    float: left;
+    width: 50%;
+    text-align: center;
 }
 
 img.transparent{

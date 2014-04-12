@@ -434,21 +434,31 @@ nav a:hover {
 .dibigong-item {
     position: relative;
     padding: 10px 10px;
-    margin:  0px;
+    margin:  10px 0;
     background-color: #EFEFEF;
     border: 2px solid #DDDDDD;
 }
 
-.map {
-    position:absolute;
-    top:66%;
-    left: 68%;
+.dibigong-left-side {
+    float: left;
+    width: 50%;
+    position:relative;
 }
 
-.facebook-event {
-    position:absolute;
-    top:33%;
-    left: 68%;
+.dibigong-right-side {
+    float: left;
+    width: 50%;
+}
+
+.dibigong-right-side-container {
+    padding-right: 10px;
+    padding-left : 10px;
+ }
+
+.dibigong-right-side img {
+    width: 100%;
+    height: auto;
+    padding-bottom:10px;
 }
 
 img.transparent{
@@ -456,6 +466,10 @@ img.transparent{
     filter:alpha(opacity=70); /* For IE8 and earlier */
 }
 
+.dibigong-left-side img {
+    width: 100%;
+    height: auto;
+}
 
 /*===============
 Responsive YouTube Embed

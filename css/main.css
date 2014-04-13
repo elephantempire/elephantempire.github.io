@@ -358,10 +358,39 @@ nav a:hover {
 }
 
 .word-bubble-item {
-    position: relative;
-    padding: 5px 5px;
-    margin:  10px 0;
+    display   : block;
+    width     : 100%;
     text-align: center;
+}
+
+.word-bubble-container-leftside {
+    display: inline-block;
+    text-align: right;
+    vertical-align: bottom;
+    width: 49%;
+}
+
+.word-bubble-container-rightside {
+    display: inline-block;
+    text-align: left;
+    vertical-align: bottom;
+    width: 49%;
+}
+
+.hannah-wordbubble {
+    padding-right: 8px;
+}
+
+.matt-wordbubble {
+    padding-left: 8px;
+}
+
+/* responsive pixelpeople images, once we hit mobile */
+@media screen and (max-width: 570px) {
+    .wordbubble-image {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .the-press-says {

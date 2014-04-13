@@ -292,7 +292,7 @@ nav a:hover {
     text-align: center;
 }
 
-.image-ee-gif {
+.image-ee-science-gif {
     width: 50%;
     display: inline-block;
     padding-right: 5px;
@@ -300,6 +300,17 @@ nav a:hover {
 
 .image-ee-promo {
     width: 42%;
+    display: inline-block;
+}
+
+.image-ee-napping {
+    width: 41%;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.image-ee-marmar {
+    width: 50.5%;
     display: inline-block;
 }
 

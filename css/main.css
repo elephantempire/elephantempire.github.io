@@ -289,7 +289,8 @@ nav a:hover {
 }
 
 .center-please {
-    text-align: center;
+    padding-top: 14px;
+    text-align : center;
 }
 
 .image-ee-science-gif {
@@ -327,17 +328,16 @@ nav a:hover {
     opacity: 0;
 }
 
-
-
 .project-img {
     padding: 0px 10px;
     float: left;
-
 }
 
 .project-item {
-    padding: 5px 5px;
-    margin:  10px 0;
+    padding-top   : 12px;
+    padding-bottom: 12px;
+    margin        :  10px 0;
+
     background-color: #EFEFEF;
     border: 2px solid #DDDDDD;
 }
@@ -349,24 +349,28 @@ nav a:hover {
 }
 
 .person-item {
-    padding: 10px 10px 10px 10px;
-    margin:  10px 0;
+    position:relative;
+    padding: 10px 10px 10px 16px;
+    margin :  10px 0;
+
     background-color: #EFEFEF;
     border: 2px solid #DDDDDD;
-    position:relative;
 }
 
 .word-bubble-item {
     padding: 5px 5px;
     margin:  10px 0;
     position: relative;
-  
+}
+
+.the-press-says {
+    padding-left:  16px;
+    padding-right: 16px;
 }
 
 .person-name-font {
     font-family: 'Courier New', 'Courier', 'Arial';
 }
-
 
 .person-item-cast {
     padding: 10px 10px;
@@ -398,7 +402,7 @@ nav a:hover {
 
 .pixel-portrait img {
     position:absolute;
-    left:-60px;
+    left: -55px;
     bottom: 15%;
 }
 

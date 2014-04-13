@@ -358,9 +358,10 @@ nav a:hover {
 }
 
 .word-bubble-item {
+    position: relative;
     padding: 5px 5px;
     margin:  10px 0;
-    position: relative;
+    text-align: center;
 }
 
 .the-press-says {

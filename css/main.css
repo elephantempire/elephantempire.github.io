@@ -334,8 +334,8 @@ nav a:hover {
 }
 
 .project-item {
-    padding-top   : 12px;
-    padding-bottom: 12px;
+  padding: 10px 10px;
+
     margin        :  10px 0;
 
     background-color: #EFEFEF;
@@ -402,6 +402,7 @@ nav a:hover {
     font-family: 'Courier New', 'Courier', 'Arial';
 }
 
+.
 .person-item-cast {
     padding: 10px 10px;
     margin:  10px 0;
@@ -413,8 +414,8 @@ nav a:hover {
 .person-item-crew {
     padding: 10px 10px;
     margin:  10px 0;
-    background-color: #aad9ff;
-    border: 2px solid #DDDDDD;
+    background-color: #dfe1ff   ;
+    border: 2px solid #cdd1ff;
     position:relative;
 }
 
@@ -434,6 +435,12 @@ nav a:hover {
     position:absolute;
     left: -55px;
     bottom: 15%;
+} 
+.pixel-portrait-wide img {
+   position:absolute;
+    left: -110px;
+    bottom: 15%;
+
 }
 
 @media screen and (max-width: 570px) {

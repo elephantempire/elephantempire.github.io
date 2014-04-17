@@ -146,20 +146,46 @@ nav a:hover {
     MOBILE: Main
    ============== */
 
-.main {
-    padding: 30px 0;
+.main article h1 {
+    font-size:   50px;
+    line-height: 1;
+    font-family: "Courier New";
+    display: inline-block;
+    margin-left: -5%;
 }
 
-.main article h1 {
-    font-size: 50px;
-    line-height: 100%;
-    font-family: "courier new";
-    margin: 10px 10px 10px -5%;
+.main-title-container {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.ee-logo-container {
+    display: inline-block;
 }
 
 @media screen and (max-width: 570px) {
+
     .main article h1 {
+        padding: 0;
+        margin: 0;
+
+        display:     block;
+
         font-size: 34px;
+        line-height: 1;
+        font-family: "Courier New";
+        text-align: center;
+    }
+
+    .main-title-container {
+        margin-top:    18px;
+        margin-bottom: 10px;
+    }
+
+    .ee-logo-container {
+        display:    block;
+        text-align: center;
+        margin-top: 20px;
     }
 }
 
@@ -237,55 +263,74 @@ nav a:hover {
     z-index: 2;
 }
 
+.project-title{
+    margin: 0px 0px 0px -5%;
+    padding: 5px;
+    position:relative;
+}
+
 .plain-item  p {
     font-size: 18px;
     line-height: 1.1;
     margin: 10px 0 4px 0;
-    /*position: relative;*/
 }
 
-.pixelpeter-title {
+.pixelpeter-item {
+    width: 75%; /* see article width above */
     position: relative;
+    display: block;
+    margin: 0 auto;
 }
 
-.pixelpeter {
+.the-downlow {
+    float: left;
+    width: 50%;
+}
+
+.pixelpeter-container {
+    float: left;
+    width: 50%;
+}
+
+.pixelpeter-png {
     position: absolute;
-    right   : 30px;
-    top     : 65px;
-    z-index : 9999;
+    right: -10px;
+    top: -20px;
 }
 
-.wordbubble {
-    position: absolute;
-    bottom  : 150px;
-    left    : -200px;
-}
+@media screen and (max-width: 570px) {
 
-.wordbubbletext {
+    .plain-item  p {
+        font-size: 16px;
+        line-height: 1.1;
+        margin: 10px 0 4px 0;
+    }
 
-    font-family: calibri;
-    font-size: 20px;
-    color: white;
+    .pixelpeter-item {
+        width: 100%;
+        position: relative;
+        height: auto;
+        display: block;
+    }
 
-    line-height:110%;
-    margin: -140px 0px 0px 25px;
-    width:160px;
+    .the-downlow {
+        float:none;
+        display: block;
+        width: 100%;
+    }
 
-}
+    .pixelpeter-container {
+        float:none;
+        display: block;
+        width: 100%;
+        margin-top: 16px;
+    }
 
-.wordbubbletext a:link{
-    color: gold;
-    text-decoration:none;
-}
 
-.wordbubbletext a:visited{
-    color: gold;
-    text-decoration:none;
-}
-
-.wordbubbletext a:hover{
-    color: gold;
-    text-decoration:none;
+    .pixelpeter-png {
+        position: inherit;
+        width: 100%;
+    }
 }
 
 .center-please {
@@ -342,12 +387,6 @@ nav a:hover {
     border: 2px solid #DDDDDD;
 }
 
-.project-title{
-        margin: 0px 0px 0px -5%;
-        padding: 5px;
-        position:relative;
-}
-
 .person-item {
     position:relative;
     padding: 10px 10px 10px 16px;
@@ -367,14 +406,14 @@ nav a:hover {
     display: inline-block;
     text-align: right;
     vertical-align: bottom;
-    width: 49%;
+    width: 48%;
 }
 
 .word-bubble-container-rightside {
     display: inline-block;
     text-align: left;
     vertical-align: bottom;
-    width: 49%;
+    width: 48%;
 }
 
 .hannah-wordbubble {
@@ -435,7 +474,7 @@ nav a:hover {
     position:absolute;
     left: -55px;
     bottom: 15%;
-} 
+}
 .pixel-portrait-wide img {
    position:absolute;
     left: -110px;

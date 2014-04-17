@@ -549,11 +549,21 @@ background-image: linear-gradient(to left top, #EFEFEF 70%, #0072F5 100%);
     }
 }
 
-.twitter-pixel-logo{
+.twitter-pixel-logo {
     position: absolute;
     top: 15px;
     right: -25px;
     z-index:1;
+}
+
+@media screen and (max-width: 570px) {
+    .twitter-pixel-logo {
+        right: -15px;
+    }
+    .twitter-pixel-logo img {
+        width: 45px;
+        height: auto;
+    }
 }
 
 .dibigong-item {

@@ -397,7 +397,6 @@ nav a:hover {
     position:relative;
     padding: 10px 10px 10px 16px;
     margin :  10px 0;
-
     background-color: #EFEFEF;
     border: 2px solid #DDDDDD;
 }
@@ -447,20 +446,42 @@ nav a:hover {
     font-family: 'Courier New', 'Courier', 'Arial';
 }
 
-.
 .person-item-cast {
     padding: 10px 10px;
     margin:  10px 0;
-    background-color: #ffb649;
-    border: 2px solid #DDDDDD;
+   background-image: -webkit-gradient(
+	linear,
+	left top,
+	left top,
+	color-stop(0.7, #EFEFEF),
+	color-stop(1, #FF7700)
+);
+background-image: -o-linear-gradient(left top, #EFEFEF 70%, #FF7700 100%);
+background-image: -moz-linear-gradient(left top, #EFEFEF 70%, #FF7700 100%);
+background-image: -webkit-linear-gradient(left top, #EFEFEF 70%, #FF7700 100%);
+background-image: -ms-linear-gradient(left top, #EFEFEF 70%, #FF7700 100%);
+background-image: linear-gradient(to left top, #EFEFEF 70%, #FF7700 100%);
+    border: 0px solid #FF7600;
     position:relative;
 }
 
 .person-item-crew {
     padding: 10px 10px;
     margin:  10px 0;
-    background-color: #dfe1ff   ;
-    border: 2px solid #cdd1ff;
+    background-image: -webkit-gradient(
+	linear,
+	left top,
+	left top,
+	color-stop(0.7, #EFEFEF),
+	color-stop(1, #0072F5)
+);
+background-image: -o-linear-gradient(left top, #EFEFEF 70%, #0072F5 100%);
+background-image: -moz-linear-gradient(left top, #EFEFEF 70%, #0072F5 100%);
+background-image: -webkit-linear-gradient(left top, #EFEFEF 70%, #0072F5 100%);
+background-image: -ms-linear-gradient(left top, #EFEFEF 70%, #0072F5 100%);
+background-image: linear-gradient(to left top, #EFEFEF 70%, #0072F5 100%);
+ 
+    border: 0px solid #cdd1ff;
     position:relative;
 }
 

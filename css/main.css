@@ -2,6 +2,12 @@
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
 
+html * {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
 html,
 button,
 input,
@@ -500,6 +506,26 @@ nav a:hover {
 .person-right-side img {
     width: 100%;
     height: auto;
+}
+
+@media screen and (max-width: 570px) {
+    .person-right-side {
+        display:block;
+        float:none;
+        width: 100%;
+    }
+    .person-right-side img {
+        padding-top: 10px;
+    }
+
+    .person-left-side {
+        display:block;
+        float:none;
+        width: 100%;
+    }
+    .person-left-side img {
+        padding-top: 10px;
+    }
 }
 
 .twitter-pixel-logo{

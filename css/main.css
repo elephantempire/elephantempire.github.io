@@ -449,18 +449,21 @@ nav a:hover {
 .person-item-cast {
     padding: 10px 10px;
     margin:  10px 0;
+  
    background-image: -webkit-gradient(
 	linear,
-	left top,
-	left top,
-	color-stop(0.7, #EFEFEF),
-	color-stop(1, #FF7700)
+	right bottom,
+	right bottom,
+	color-stop(0, #FD7600),
+	color-stop(0.2, #EFEFEF),
+	color-stop(0.28, #EFEFEF)
 );
-background-image: -o-linear-gradient(left top, #EFEFEF 70%, #FF7700 100%);
-background-image: -moz-linear-gradient(left top, #EFEFEF 70%, #FF7700 100%);
-background-image: -webkit-linear-gradient(left top, #EFEFEF 70%, #FF7700 100%);
-background-image: -ms-linear-gradient(left top, #EFEFEF 70%, #FF7700 100%);
-background-image: linear-gradient(to left top, #EFEFEF 70%, #FF7700 100%);
+background-image: -o-linear-gradient(right bottom, #FD7600 0%, #EFEFEF 20%, #EFEFEF 28%);
+background-image: -moz-linear-gradient(right bottom, #FD7600 0%, #EFEFEF 20%, #EFEFEF 28%);
+background-image: -webkit-linear-gradient(right bottom, #FD7600 0%, #EFEFEF 20%, #EFEFEF 28%);
+background-image: -ms-linear-gradient(right bottom, #FD7600 0%, #EFEFEF 20%, #EFEFEF 28%);
+background-image: linear-gradient(to right bottom, #FD7600 0%, #EFEFEF 20%, #EFEFEF 28%);
+  
     border: 0px solid #FF7600;
     position:relative;
 }
@@ -468,19 +471,19 @@ background-image: linear-gradient(to left top, #EFEFEF 70%, #FF7700 100%);
 .person-item-crew {
     padding: 10px 10px;
     margin:  10px 0;
-    background-image: -webkit-gradient(
+ background-image: -webkit-gradient(
 	linear,
-	left top,
-	left top,
-	color-stop(0.7, #EFEFEF),
-	color-stop(1, #0072F5)
+	right bottom,
+	right bottom,
+	color-stop(0, #0072F5),
+	color-stop(0.2, #EFEFEF),
+	color-stop(0.28, #EFEFEF)
 );
-background-image: -o-linear-gradient(left top, #EFEFEF 70%, #0072F5 100%);
-background-image: -moz-linear-gradient(left top, #EFEFEF 70%, #0072F5 100%);
-background-image: -webkit-linear-gradient(left top, #EFEFEF 70%, #0072F5 100%);
-background-image: -ms-linear-gradient(left top, #EFEFEF 70%, #0072F5 100%);
-background-image: linear-gradient(to left top, #EFEFEF 70%, #0072F5 100%);
- 
+background-image: -o-linear-gradient(right bottom, #0072F5 0%, #EFEFEF 20%, #EFEFEF 28%);
+background-image: -moz-linear-gradient(right bottom, #0072F5 0%, #EFEFEF 20%, #EFEFEF 28%);
+background-image: -webkit-linear-gradient(right bottom, #0072F5 0%, #EFEFEF 20%, #EFEFEF 28%);
+background-image: -ms-linear-gradient(right bottom, #0072F5 0%, #EFEFEF 20%, #EFEFEF 28%);
+background-image: linear-gradient(to right bottom, #0072F5 0%, #EFEFEF 20%, #EFEFEF 28%);
     border: 0px solid #cdd1ff;
     position:relative;
 }

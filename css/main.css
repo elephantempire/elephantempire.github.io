@@ -386,9 +386,17 @@ nav a:hover {
 
 .project-item {
   padding: 10px 10px;
+  margin:  10px 0;
+  background-color: #EFEFEF;
+  border: 2px solid #DDDDDD;
+}
 
-    margin        :  10px 0;
-
+.project-item-youtube-subscribe {
+  padding: 2px;
+  vertical-align: middle;
+  text-align: right;
+    font-family: courier new;
+    margin:  5px;
     background-color: #EFEFEF;
     border: 2px solid #DDDDDD;
 }
@@ -551,6 +559,27 @@ background-image: linear-gradient(to right bottom, #0072F5 0%, #EFEFEF 20%, #EFE
         padding-top: 10px;
     }
 }
+
+
+/*
+Mouse Over
+*/
+#a:hover~#text .a ,
+#b:hover~#text .b ,
+#c:hover~#text .c ,
+#d:hover~#text .d ,
+#e:hover~#text .e {
+    opacity: 1;
+}
+
+#text div{
+    opacity: 0;
+}
+
+
+
+
+
 
 .twitter-pixel-logo {
     position: absolute;

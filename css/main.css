@@ -156,27 +156,60 @@ nav a:hover {
     font-size:   50px;
     line-height: 1;
     font-family: "Courier New";
-    display: inline-block;
-    margin-left: -5%;
+    display: block;
+    margin: 20px 0px 5px 0px;
 }
 
+
 .main-title-container {
-    margin-top: 18px;
-    margin-bottom: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.main-title-menu-container {
+    display: block;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-title-menu a:link, a:visited {
+    color: #9d9d9d;    
+    text-decoration: none;
+}
+
+.main-title-menu {
+    display: inline-block;
+    margin: 5px 0px 10px 0px;
+    vertical-align: middle;
+    line-height: 170%;
+    white-space: nowrap;
+    font-weight: 900;
+    padding: 0px 5px 0px 5px;
+    font-size: 20px;
+
+}
+
+.line-separator{
+
+height:1px;
+
+background:#bababa;
+
+border-bottom:1px solid #bababa;
+
 }
 
 .ee-logo-container {
     display: inline-block;
+    margin: 5px 0px 10px 0px;
 }
 
 @media screen and (max-width: 570px) {
 
     .main article h1 {
-        padding: 0;
-        margin: 0;
-
-        display:     block;
-
+        display: block;
         font-size: 34px;
         line-height: 1;
         font-family: "Courier New";
@@ -184,15 +217,24 @@ nav a:hover {
     }
 
     .main-title-container {
-        margin-top:    18px;
+        margin-top:    10px;
         margin-bottom: 10px;
+        font-size: 2em;
     }
+    
+    .main-title-menu {
+        color: #b2b2b2;
+    display: inline-block;
+    margin: 5px 0px 10px 0px;
+    vertical-align: middle;
+    line-height: 250%;
+    white-space: nowrap;
+    font-weight: 900;
+    font-size: 14px;
+    padding: 0px 1px 0px 1px;
 
-    .ee-logo-container {
-        display:    block;
-        text-align: center;
-        margin-top: 20px;
-    }
+}
+   
 }
 
 .main article h1 a {
@@ -207,6 +249,7 @@ nav a:hover {
 .main article h2 {
     font-size: 22px;
     font-family: "courier new";
+    display: inline-block;
 }
 
 .main article h3 {
@@ -220,9 +263,7 @@ nav a:hover {
 .main article h4 {
     font-size: 32px;
     line-height: 40px;
-    margin: 0px;
-    font-family: "courier new";
-
+    font-family: "Courier New";
 
 }
  /*home page project titles*/
@@ -250,8 +291,7 @@ nav a:hover {
 .ie7 .title {
     padding-top: 20px;
 }
-
-/* ==========================================================================
+ ==========================================================================
    Author's custom styles zzz
    ========================================================================== */
 
@@ -273,6 +313,11 @@ nav a:hover {
     margin: 0px 0px 0px -5%;
     padding: 5px;
     position:relative;
+
+}
+
+.index-menu{
+    width: 50%;
 }
 
 .plain-item  p {
@@ -391,16 +436,6 @@ nav a:hover {
   border: 2px solid #DDDDDD;
 }
 
-.project-item-youtube-subscribe {
-  padding: 2px;
-  vertical-align: middle;
-  text-align: right;
-    font-family: courier new;
-    margin:  5px;
-    background-color: #EFEFEF;
-    border: 2px solid #DDDDDD;
-}
-
 .person-item {
     position:relative;
     padding: 10px 10px 10px 16px;
@@ -452,6 +487,13 @@ nav a:hover {
 
 .person-name-font {
     font-family: 'Courier New', 'Courier', 'Arial';
+    text-decoration-color: black;
+    padding-bottom: 5px;
+}
+
+.person-name-font a:link {
+    text-decoration: none;
+    color: black;
 }
 
 .person-item-cast {
@@ -499,6 +541,7 @@ background-image: linear-gradient(to right bottom, #0072F5 0%, #EFEFEF 20%, #EFE
 .person-left-side {
     float:left;
     width: 60%;
+    padding-left: 10px;
 }
 
 .person-left-side p {
@@ -511,7 +554,8 @@ background-image: linear-gradient(to right bottom, #0072F5 0%, #EFEFEF 20%, #EFE
 .pixel-portrait img {
     position:absolute;
     left: -55px;
-    bottom: 15%;
+    bottom: auto;
+    top:auto;
 }
 .pixel-portrait-wide img {
    position:absolute;
@@ -676,21 +720,23 @@ Responsive YouTube Embed
 
 /*zzz petes tweeter */
 #tweeter-box {
-    background-color: #00ACED;
-    border: 2px solid #009ACB;
-    padding: 20px;
-    margin: 30px 0;
-    position: relative;
+    background-color: #0084ff;
+    border-bottom: 20px solid #ff8000;
+     padding: 5px 20px ;
+    position: relative; 
+    text-align: center;
 }
 
 #tweeter-content {
-    -webkit-border-radius: 5px;
+   -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     background-color: white;
-    padding: 0px 0px;
-    margin:  0;
-    margin-right: 50px;
+    padding: 0px 5px;
+    background: white;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #tweeter {

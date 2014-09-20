@@ -210,7 +210,7 @@ border-bottom:1px solid #bababa;
 
     .main article h1 {
         display: block;
-        font-size: 34px;
+        font-size: 31px;
         line-height: 1;
         font-family: "Courier New";
         text-align: center;
@@ -230,9 +230,21 @@ border-bottom:1px solid #bababa;
     line-height: 250%;
     white-space: nowrap;
     font-weight: 900;
-    font-size: 14px;
+    font-size: 12px;
     padding: 0px 1px 0px 1px;
 
+}
+    
+    .ee-logo-container {
+    display: inline-block;
+    margin: 5px 0px 10px 0px;
+    width: 100px;
+}
+    
+    .ee-logo-container img{
+    display: inline-block;
+    margin: 5px 0px 10px 0px;
+    width: 100px;
 }
    
 }
@@ -310,8 +322,8 @@ border-bottom:1px solid #bababa;
 }
 
 .project-title{
-    margin: 0px 0px 0px -15%;
-    padding: 5px;
+    margin: 0px 0px 0px -3%;
+    padding: 0px;
     position:relative;
 
 }
@@ -323,7 +335,7 @@ border-bottom:1px solid #bababa;
 .plain-item  p {
     font-size: 18px;
     line-height: 1.1;
-    margin: 10px 0 4px 0;
+    margin: 10px 0px 4px 0px;
 }
 
 .pixelpeter-item {
@@ -351,17 +363,10 @@ border-bottom:1px solid #bababa;
 
 @media screen and (max-width: 570px) {
 
-    
-    .project-title{
-    margin: 0px 0px 0px -4%;
-    padding: 5px;
-    position:relative;
-
-}
     .plain-item  p {
         font-size: 16px;
         line-height: 1.1;
-        margin: 10px 0 4px 0;
+        margin: 10px 0px 4px 0px;
     }
 
     .pixelpeter-item {

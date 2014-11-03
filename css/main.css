@@ -147,7 +147,7 @@ textarea {
 .story-box :hover {
     cursor: hand;
     cursor: pointer;
-    opacity: 0.85;
+    opacity: 0.9;
 }
 
 .video-box {
@@ -156,6 +156,19 @@ textarea {
 
 .video-box a{
     display: block;
+}
+
+.special-announcement {
+    width: 50%;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    text-align: center;
+    top: 0;
+    padding: 5px;
+    position: absolute;
+    background: #32CD32;
 }
 
 .story-box-title {

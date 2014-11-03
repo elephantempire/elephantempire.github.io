@@ -84,6 +84,7 @@ textarea {
 
 .footer-container {
     border-top: 20px solid #0084ff; /*#0079ff;*/
+    padding: 15px 20px ;
 }
 
 .header-container,

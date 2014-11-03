@@ -191,14 +191,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
  
 }
 
-.story-box-title a:link, a:visited, a:active {
-    text-decoration: none; 
-    color: white;
-}
-
-.story-box-title a:hover {
-    text-decoration: underline;
-}
+.story-box-title a:link {text-decoration: none; color: white;}
+.story-box-title a:visited {text-decoration: none; color: white;}
+.story-box-title a:active {text-decoration: none; color: white;}
+.story-box-title a:hover {text-decoration: underline; color: white;}
 
 .video-box-title {
     width: 100%;

@@ -152,6 +152,8 @@ textarea {
 .story-box :hover {
     cursor: hand;
     cursor: pointer;
+        opacity: 0.9;
+
 }
 
 background-box :hover {

@@ -83,6 +83,7 @@ textarea {
 .main {
     max-width: 640px;
     margin: auto;
+    font-family: "Helvetica";
 }
 
 .main h1{

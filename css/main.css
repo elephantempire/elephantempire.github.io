@@ -107,11 +107,11 @@ textarea {
 /* STORY BOX */
 
 .story-box-text p {
-    margin: 20px 20px 20px 20px;
+    margin: 15px 20px 20px 20px;
 }
 
 span.highlight {
-    padding:20px 5px 0px; 
+    padding:15px 5px 0px; 
     font-weight:400;
     font-size: 24px;
     text-decoration:none;

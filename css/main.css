@@ -72,8 +72,6 @@ textarea {
    By: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
-
-
 /* ==============
     Desktop version 640px width
    ============== */
@@ -132,7 +130,7 @@ span.highlight a:link{
 /* ==============
     MOBILE version 320px width
    ============== */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
 
 span.highlight {
     font-size: 20px;
